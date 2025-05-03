@@ -2,6 +2,8 @@
 
 A versatile and customizable button component for React Native, supporting gradients, loading states, icons, and more.
 
+![Alt text](https://github.com/Dhia-Ben-Hamouda/rn-awesome-button/blob/main/src/assets/preview.gif)
+
 ---
 
 ## ✨ Features
@@ -54,15 +56,15 @@ export default function App() {
 
 | Prop                           | Type                        | Default            | Description                                                           |
 | ------------------------------ | --------------------------- | ------------------ | --------------------------------------------------------------------- |
-| `children`                     | `React.ReactNode`           | —                  | The label inside the button.                                          |
-| `onPress`                      | `() => void`                | —                  | Function to call on press.                                            |
+| `children`                     | `React.ReactNode`           | `undefined`        | The label inside the button.                                          |
+| `onPress`                      | `() => void`                | `undefined`        | Function to call on press.                                            |
 | `isLoading`                    | `boolean`                   | `false`            | Shows a loading spinner. Disables the button.                         |
 | `isDisabled`                   | `boolean`                   | `false`            | Disables the button without loading indicator.                        |
-| `startIcon`                    | `React.ReactNode`           | —                  | Icon to show before the label.                                        |
-| `endIcon`                      | `React.ReactNode`           | —                  | Icon to show after the label.                                         |
-| `containerStyle`               | `StyleProp<ViewStyle>`      | —                  | Style override for the `TouchableOpacity` container.                  |
-| `textStyle`                    | `StyleProp<TextStyle>`      | —                  | Style override for the button label text.                             |
-| `gradientWrapperStyle`         | `StyleProp<ViewStyle>`      | —                  | Style for the `LinearGradient` wrapper when `useGradients` is `true`. |
+| `startIcon`                    | `React.ReactNode`           | `undefined`        | Icon to show before the label.                                        |
+| `endIcon`                      | `React.ReactNode`           | `undefined`        | Icon to show after the label.                                         |
+| `containerStyle`               | `StyleProp<ViewStyle>`      | `undefined`        | Style override for the `TouchableOpacity` container.                  |
+| `textStyle`                    | `StyleProp<TextStyle>`      | `undefined`        | Style override for the button label text.                             |
+| `gradientWrapperStyle`         | `StyleProp<ViewStyle>`      | `undefined`        | Style for the `LinearGradient` wrapper when `useGradients` is `true`. |
 | `activityIndicatorColor`       | `string`                    | `"#fff"`           | Color of the loading spinner.                                         |
 | `pendingActionBackgroundColor` | `string`                    | `"#888"`           | Background when loading or disabled.                                  |
 | `useGradients`                 | `boolean`                   | `false`            | Whether to use a gradient background.                                 |

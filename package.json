@@ -1,6 +1,6 @@
 {
   "name": "rn-awesome-button",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A custom button for react native",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,6 +26,6 @@
   },
   "repository": {
     "type": "git",
-    "directory": ""
+    "directory": "https://github.com/Dhia-Ben-Hamouda/rn-awesome-button.git"
   }
 }
