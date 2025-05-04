@@ -1,7 +1,7 @@
 {
   "name": "rn-awesome-button",
-  "version": "1.0.2",
-  "description": "A custom button for react native",
+  "version": "1.0.3",
+  "description": "A custom button component for react native, supporting gradients, loading states, icons, and more.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
