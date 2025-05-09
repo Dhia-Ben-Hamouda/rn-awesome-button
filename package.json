@@ -1,6 +1,6 @@
 {
   "name": "rn-awesome-button",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A custom button component for react native, supporting gradients, loading states, icons, and more.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,6 +26,6 @@
   },
   "repository": {
     "type": "git",
-    "directory": "https://github.com/Dhia-Ben-Hamouda/rn-awesome-button.git"
+    "url": "https://github.com/Dhia-Ben-Hamouda/rn-awesome-button.git"
   }
 }
